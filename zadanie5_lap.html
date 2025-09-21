@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<HTML> 
+<HEAD> 
+<SCRIPT>
+function WinOpen_grafika1_lapacz()  
+               { 
+window.open("grafika1_lapacz.html","okienko_1","toolbar=no,directories=no,menubar=no,height=380,width=210,top=600,left=300");
+               } 
+function WinOpen_grafika2_lapacz()  
+               { 
+window.open("grafika2_lapacz.html","okienko_2","toolbar=no,directories=no,menubar=no,height=380,width=220,top=450,left=500"); 
+               } 
+function WinOpen_grafika3_lapacz()  
+               { 
+window.open("grafika3_lapacz.html","okienko_3","toolbar=no,directories=no,menubar=no,height=380,width=200,top=270,left=700"); 
+               } 
+function WinOpen_grafika4_lapacz()  
+               { 
+window.open("grafika4_lapacz.html","okienko_4","toolbar=no,directories=no,menubar=no,height=380,width=210,top=50,left=900"); 
+               } 
+function okno_zamknij_lapacz()  
+                       { 
+                             window.close() 
+                       } 
+</SCRIPT>
+</HEAD> 
+<BODY> 
+<div style="text-align:center;">
+<SCRIPT>       
+document.write("wykonał: Kacper Łapacz mój numer w dzuennujy 15, czyli <br> mam układ [(15)mod4=3] układ 3".fontcolor("red").fontsize("10")+"<br>");
+
+</SCRIPT> 
+
+<form>
+<input type="button" name="grafika1" value="grafika1" onclick="WinOpen_grafika1_lapacz(' ')">
+<input type="button" name="grafika2" value="grafika2" onclick="WinOpen_grafika2_lapacz(' ')">
+<input type="button" name="grafika3" value="grafika3" onclick="WinOpen_grafika3_lapacz(' ')">
+<input type="button" name="grafika4" value="grafika4" onclick="WinOpen_grafika4_lapacz(' ')">
+<br><br><br><br><br>
+   <input type="button" value="zamknij okno" onclick="okno_zamknij_lapacz()"/> 
+</form>
+</div>
+</BODY> 
+</HTML>
